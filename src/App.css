@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  width: 40vw;
+  min-height: 80vh;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 2rem 1rem;
+}
+
+.form-comment input, textarea{
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form-comment textarea{
+  height: 60px;
+}
+
+.comment .content{
+  text-align: left;
+}
+
+.comment .buttons{
+  text-align: end;
+}
+
+.button-danger {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  border-style: none;
+}
+
+.button-danger:hover {
+  background-color: rgb(198, 0, 0);
+}
+.button-edit {
+  background-color: rgb(231, 215, 0);
+  color: white;
+  border-radius: 5px;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  border-style: none;
+}
+
+.button-edit:hover {
+  background-color: rgb(212, 198, 0);
+}
+
+.button-form{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  border-style: none;
+}
+
+.button-form:hover {
+  background-color: rgb(1, 102, 1);
+}
+
+
